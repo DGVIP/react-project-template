@@ -2,8 +2,8 @@ import { Suspense } from "react";
 import { Route, Routes, Navigate, BrowserRouter as Router } from "react-router-dom";
 import { AppRoutes } from "./app.routes";
 import { AuthRoutes } from "./auth.routes";
-import { RouterFallback } from "@shared/router-fallback.component";
-import { RouterErrorBoundary } from "@shared/router-error-boundary.component";
+import { RouterFallback } from "@/shared/router-fallback.component";
+import { RouterErrorBoundary } from "@/shared/router-error-boundary.component";
 
 export const Navigation = () => {
    return (

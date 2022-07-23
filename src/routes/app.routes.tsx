@@ -1,7 +1,7 @@
 import { lazy } from "react";
 import { Navigate, Route, Routes } from "react-router-dom";
 
-const HomePage = lazy(() => import("@pages/app/home.page"));
+const HomePage = lazy(() => import("@/pages/app/home.page"));
 
 export const AppRoutes = () => {
    return (
